@@ -12705,11 +12705,15 @@ md-progress-linear {
     md-progress-linear .md-container.md-mode-determinate .md-bar1 {
       display: none; }
     md-progress-linear .md-container.md-mode-indeterminate .md-bar1 {
-      -webkit-animation: md-progress-linear-indeterminate-scale-1 4s infinite, md-progress-linear-indeterminate-1 4s infinite;
-              animation: md-progress-linear-indeterminate-scale-1 4s infinite, md-progress-linear-indeterminate-1 4s infinite; }
+      -webkit-animation: md-progress-linear-indeterminate-scale-1 4s infinite,
+ md-progress-linear-indeterminate-1 4s infinite;
+              animation: md-progress-linear-indeterminate-scale-1 4s infinite,
+ md-progress-linear-indeterminate-1 4s infinite; }
     md-progress-linear .md-container.md-mode-indeterminate .md-bar2 {
-      -webkit-animation: md-progress-linear-indeterminate-scale-2 4s infinite, md-progress-linear-indeterminate-2 4s infinite;
-              animation: md-progress-linear-indeterminate-scale-2 4s infinite, md-progress-linear-indeterminate-2 4s infinite; }
+      -webkit-animation: md-progress-linear-indeterminate-scale-2 4s infinite,
+ md-progress-linear-indeterminate-2 4s infinite;
+              animation: md-progress-linear-indeterminate-scale-2 4s infinite,
+ md-progress-linear-indeterminate-2 4s infinite; }
     md-progress-linear .md-container.ng-hide {
       -webkit-animation: none;
               animation: none; }
@@ -14849,7 +14853,7 @@ body.boxed {
     right: 0;
     left: 0;
     height: 200px;
-    background-image: url("/assets/images/backgrounds/header-bg.png");
+    background-image: url("../assets/images/backgrounds/header-bg.png");
     background-size: cover; }
   .page-layout md-backdrop {
     z-index: 50; }
@@ -15020,7 +15024,7 @@ body.boxed {
       min-height: 200px;
       max-height: 200px;
       padding: 24px;
-      background-image: url("/assets/images/backgrounds/header-bg.png");
+      background-image: url("../assets/images/backgrounds/header-bg.png");
       background-size: cover; }
     .page-layout.simple.fullwidth > .content {
       padding: 24px; }
@@ -15055,7 +15059,7 @@ body.boxed {
         min-height: 200px;
         max-height: 200px;
         padding: 24px;
-        background-image: url("/assets/images/backgrounds/header-bg.png");
+        background-image: url("../assets/images/backgrounds/header-bg.png");
         background-size: cover; }
       .page-layout.simple.left-sidenav > .center .content {
         padding: 24px;
@@ -15077,7 +15081,7 @@ body.boxed {
         min-height: 200px;
         max-height: 200px;
         padding: 24px;
-        background-image: url("/assets/images/backgrounds/header-bg.png");
+        background-image: url("../assets/images/backgrounds/header-bg.png");
         background-size: cover; }
       .page-layout.simple.right-sidenav > .center .content {
         padding: 24px;
@@ -15103,7 +15107,7 @@ body.boxed {
       min-height: 200px;
       max-height: 200px;
       padding: 24px;
-      background-image: url("/assets/images/backgrounds/header-bg.png");
+      background-image: url("../assets/images/backgrounds/header-bg.png");
       background-size: cover; }
     .page-layout.simple.tabbed > .content > md-tabs > md-tabs-wrapper {
       background: #FFFFFF;
@@ -23557,8 +23561,8 @@ i {
 
 @font-face {
   font-family: 'icomoon';
-  src: url("../assets/icons/fonts/icomoon.eot?5km1tg");
-  src: url("../assets/icons/fonts/icomoon.eot?#iefix5km1tg") format("embedded-opentype"), url("../assets/icons/fonts/icomoon.ttf?5km1tg") format("truetype"), url("../assets/icons/fonts/icomoon.woff?5km1tg") format("woff"), url("../assets/icons/fonts/icomoon.svg?5km1tg#icomoon") format("svg");
+  src: url("..../assets/icons/fonts/icomoon.eot?5km1tg");
+  src: url("..../assets/icons/fonts/icomoon.eot?#iefix5km1tg") format("embedded-opentype"), url("..../assets/icons/fonts/icomoon.ttf?5km1tg") format("truetype"), url("..../assets/icons/fonts/icomoon.woff?5km1tg") format("woff"), url("..../assets/icons/fonts/icomoon.svg?5km1tg#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -35724,40 +35728,40 @@ ms-sb-add-card .ms-sb-add-card-form-wrapper {
   position: relative;
   margin: 24px; }
   #board-calendar #calendar.Jan {
-    background-image: url("/assets/images/backgrounds/january.jpg");
+    background-image: url("../assets/images/backgrounds/january.jpg");
     background-position: 0 45%; }
   #board-calendar #calendar.Feb {
-    background-image: url("/assets/images/backgrounds/february.jpg");
+    background-image: url("../assets/images/backgrounds/february.jpg");
     background-position: 0 50%; }
   #board-calendar #calendar.Mar {
-    background-image: url("/assets/images/backgrounds/march.jpg");
+    background-image: url("../assets/images/backgrounds/march.jpg");
     background-position: 0 45%; }
   #board-calendar #calendar.Apr {
-    background-image: url("/assets/images/backgrounds/april.jpg");
+    background-image: url("../assets/images/backgrounds/april.jpg");
     background-position: 0 48%; }
   #board-calendar #calendar.May {
-    background-image: url("/assets/images/backgrounds/may.jpg");
+    background-image: url("../assets/images/backgrounds/may.jpg");
     background-position: 0 47%; }
   #board-calendar #calendar.Jun {
-    background-image: url("/assets/images/backgrounds/june.jpg");
+    background-image: url("../assets/images/backgrounds/june.jpg");
     background-position: 0 48%; }
   #board-calendar #calendar.Jul {
-    background-image: url("/assets/images/backgrounds/july.jpg");
+    background-image: url("../assets/images/backgrounds/july.jpg");
     background-position: 0 3%; }
   #board-calendar #calendar.Aug {
-    background-image: url("/assets/images/backgrounds/august.jpg");
+    background-image: url("../assets/images/backgrounds/august.jpg");
     background-position: 0 61%; }
   #board-calendar #calendar.Sep {
-    background-image: url("/assets/images/backgrounds/september.jpg");
+    background-image: url("../assets/images/backgrounds/september.jpg");
     background-position: 0 58%; }
   #board-calendar #calendar.Oct {
-    background-image: url("/assets/images/backgrounds/october.jpg");
+    background-image: url("../assets/images/backgrounds/october.jpg");
     background-position: 0 50%; }
   #board-calendar #calendar.Nov {
-    background-image: url("/assets/images/backgrounds/november.jpg");
+    background-image: url("../assets/images/backgrounds/november.jpg");
     background-position: 0 46%; }
   #board-calendar #calendar.Dec {
-    background-image: url("/assets/images/backgrounds/december.jpg");
+    background-image: url("../assets/images/backgrounds/december.jpg");
     background-position: 0 43%; }
   #board-calendar #calendar .calendar-header {
     padding: 16px 0;
@@ -36573,40 +36577,40 @@ md-dialog.event-calendar-dialog {
       z-index: 1;
       background: rgba(0, 0, 0, 0.45); }
     #calendar .header.Jan {
-      background-image: url("/assets/images/backgrounds/january.jpg");
+      background-image: url("../assets/images/backgrounds/january.jpg");
       background-position: 0 45%; }
     #calendar .header.Feb {
-      background-image: url("/assets/images/backgrounds/february.jpg");
+      background-image: url("../assets/images/backgrounds/february.jpg");
       background-position: 0 50%; }
     #calendar .header.Mar {
-      background-image: url("/assets/images/backgrounds/march.jpg");
+      background-image: url("../assets/images/backgrounds/march.jpg");
       background-position: 0 45%; }
     #calendar .header.Apr {
-      background-image: url("/assets/images/backgrounds/april.jpg");
+      background-image: url("../assets/images/backgrounds/april.jpg");
       background-position: 0 48%; }
     #calendar .header.May {
-      background-image: url("/assets/images/backgrounds/may.jpg");
+      background-image: url("../assets/images/backgrounds/may.jpg");
       background-position: 0 47%; }
     #calendar .header.Jun {
-      background-image: url("/assets/images/backgrounds/june.jpg");
+      background-image: url("../assets/images/backgrounds/june.jpg");
       background-position: 0 48%; }
     #calendar .header.Jul {
-      background-image: url("/assets/images/backgrounds/july.jpg");
+      background-image: url("../assets/images/backgrounds/july.jpg");
       background-position: 0 3%; }
     #calendar .header.Aug {
-      background-image: url("/assets/images/backgrounds/august.jpg");
+      background-image: url("../assets/images/backgrounds/august.jpg");
       background-position: 0 61%; }
     #calendar .header.Sep {
-      background-image: url("/assets/images/backgrounds/september.jpg");
+      background-image: url("../assets/images/backgrounds/september.jpg");
       background-position: 0 58%; }
     #calendar .header.Oct {
-      background-image: url("/assets/images/backgrounds/october.jpg");
+      background-image: url("../assets/images/backgrounds/october.jpg");
       background-position: 0 50%; }
     #calendar .header.Nov {
-      background-image: url("/assets/images/backgrounds/november.jpg");
+      background-image: url("../assets/images/backgrounds/november.jpg");
       background-position: 0 46%; }
     #calendar .header.Dec {
-      background-image: url("/assets/images/backgrounds/december.jpg");
+      background-image: url("../assets/images/backgrounds/december.jpg");
       background-position: 0 43%; }
     #calendar .header .header-content {
       height: 100%; }
@@ -37627,7 +37631,7 @@ md-dialog.event-calendar-dialog {
 
 #coming-soon {
   height: 100%;
-  background: url("/assets/images/backgrounds/march.jpg") no-repeat;
+  background: url("../assets/images/backgrounds/march.jpg") no-repeat;
   background-size: cover; }
   #coming-soon #coming-soon-form-wrapper {
     -webkit-box-flex: 1;
@@ -37875,7 +37879,7 @@ md-dialog.event-calendar-dialog {
 
 #maintenance {
   height: 100%;
-  background: url("/assets/images/backgrounds/march.jpg") no-repeat;
+  background: url("../assets/images/backgrounds/march.jpg") no-repeat;
   background-size: cover; }
   #maintenance #maintenance-form-wrapper {
     -webkit-box-flex: 1;
@@ -37916,7 +37920,7 @@ md-dialog.event-calendar-dialog {
   height: 320px;
   min-height: 320px;
   max-height: 320px;
-  background: url("/assets/images/backgrounds/march.jpg") no-repeat 0 45%;
+  background: url("../assets/images/backgrounds/march.jpg") no-repeat 0 45%;
   background-size: 100% auto; }
   #profile .header .profile-image {
     margin-right: 24px; }
@@ -38653,7 +38657,7 @@ md-dialog.event-calendar-dialog {
 
 #forgot-password {
   height: 100%;
-  background: url("/assets/images/backgrounds/march.jpg") no-repeat;
+  background: url("../assets/images/backgrounds/march.jpg") no-repeat;
   background-size: cover; }
   #forgot-password #forgot-password-form-wrapper {
     -webkit-box-flex: 1;
@@ -38703,7 +38707,7 @@ md-dialog.event-calendar-dialog {
 
 #lock {
   height: 100%;
-  background: url("/assets/images/backgrounds/march.jpg") no-repeat;
+  background: url("../assets/images/backgrounds/march.jpg") no-repeat;
   background-size: cover; }
   #lock #lock-form-wrapper {
     -webkit-box-flex: 1;
@@ -38753,7 +38757,7 @@ md-dialog.event-calendar-dialog {
 
 #login {
   height: 100%;
-  background: url("/assets/images/backgrounds/march.jpg") no-repeat;
+  background: url("../assets/images/backgrounds/march.jpg") no-repeat;
   background-size: cover; }
   #login #login-form-wrapper {
     -webkit-box-flex: 1;
@@ -38854,7 +38858,7 @@ md-dialog.event-calendar-dialog {
 #login-v2 {
   height: 100%;
   overflow: hidden;
-  background: url("/assets/images/backgrounds/march.jpg") no-repeat;
+  background: url("../assets/images/backgrounds/march.jpg") no-repeat;
   background-size: cover; }
   #login-v2 #login-v2-intro {
     padding: 128px; }
@@ -38973,7 +38977,7 @@ md-dialog.event-calendar-dialog {
 
 #register {
   height: 100%;
-  background: url("/assets/images/backgrounds/march.jpg") no-repeat;
+  background: url("../assets/images/backgrounds/march.jpg") no-repeat;
   background-size: cover; }
   #register #register-form-wrapper {
     -webkit-box-flex: 1;
@@ -39031,7 +39035,7 @@ md-dialog.event-calendar-dialog {
 #register-v2 {
   height: 100%;
   overflow: hidden;
-  background: url("/assets/images/backgrounds/march.jpg") no-repeat;
+  background: url("../assets/images/backgrounds/march.jpg") no-repeat;
   background-size: cover; }
   #register-v2 #register-v2-intro {
     padding: 128px; }
@@ -39107,7 +39111,7 @@ md-dialog.event-calendar-dialog {
 
 #reset-password {
   height: 100%;
-  background: url("/assets/images/backgrounds/march.jpg") no-repeat;
+  background: url("../assets/images/backgrounds/march.jpg") no-repeat;
   background-size: cover; }
   #reset-password #reset-password-form-wrapper {
     -webkit-box-flex: 1;
